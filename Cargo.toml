@@ -1,12 +1,12 @@
 [package]
-name = "stylus-hello-world"
-version = "0.1.5"
+name = "serc721"
+version = "0.0.1"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-homepage = "https://github.com/OffchainLabs/stylus-hello-world"
-repository = "https://github.com/OffchainLabs/stylus-hello-world"
+homepage = "/"
+repository = "/"
 keywords = ["arbitrum", "ethereum", "stylus", "alloy"]
-description = "Stylus hello world example"
+description = "Template ERC721 implementation for solidity ERC721 contract"
 
 [dependencies]
 alloy-primitives = "0.3.1"
@@ -24,7 +24,7 @@ eyre = "0.6.8"
 export-abi = ["stylus-sdk/export-abi"]
 
 [[bin]]
-name = "stylus-hello-world"
+name = "serc721"
 path = "src/main.rs"
 
 [lib]
